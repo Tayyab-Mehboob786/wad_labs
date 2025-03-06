@@ -1,0 +1,73 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    background-color: #8ecae6;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #023047;
+    color:#ffffff;
+    min-height: 70px;
+    border-bottom: #00ffee 3px solid;
+}
+header a {
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li {
+    float: left;
+    display: inline;
+    margin-right: 30px;
+}
+header #branding {
+    float: left;
+    margin-left: 20px;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+header .highlight {
+    color: #00ffee;
+    font-weight: bold;
+}
+a:hover {
+    color: #00ffee;
+}
+#portfolio {
+    width: 80%;
+    margin: 30px auto;
+  }
+  
+  .text-container {
+    width: 70%;
+    float: left;
+  }
+  
+  .right-image {
+    float: right;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  img {
+    border-radius: 50px;
+  }
+.links {
+    text-decoration: none;
+}
+div {
+    display: inline-block;
+}
+.contact {
+    display: inline;
+    float: inline-start;
+}
