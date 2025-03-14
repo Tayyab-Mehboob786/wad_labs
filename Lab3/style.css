@@ -1,0 +1,97 @@
+:root {
+    --primary_color: rgba(255, 183, 0, 0.7);
+    --profile_color: rgba(255, 47, 0, 0.744);
+    --background_color: #386641;
+}
+body {
+    background-color: #6a994e;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-shadow: blue;
+}
+header {
+    background-color: var(--background_color);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border-bottom: #92e6a7 4px solid;
+}
+#sports {
+    border-radius: 50%;
+    margin-left: 550px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 5px 2px var(--primary_color);
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+
+}
+#sports:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 20px 10px var(--primary_color); 
+}
+h1 {
+    color: black;
+    margin-top: 0;
+    margin-left: 605px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background_color);
+    margin: 20px 15px 20px ;
+    border-radius: 30px;
+    height: 500px;
+}
+.player {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 5px 2px var(--primary_color);
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+}
+.player:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 20px 10px var(--primary_color); 
+}
+#tayyab {
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 5px 2px var(--profile_color);
+    transition: transform 0.6s ease-in-out, box-shadow 0.6s ease-in-out;
+}
+#tayyab:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 0px 20px 10px var(--profile_color); 
+}
+#card {
+    display: flex;
+    flex-direction: row;
+    background-color: #386641;
+    margin: 20px 15px 20px ;
+    border-radius: 30px;
+    height: 300px;
+    width: 800px;
+}
+.name {
+    margin-left: 130px;
+}
+#follower {
+    display: flex;
+    flex-direction: row;
+}
+.foll {
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.para {
+    margin-left: 20px;
+}
+footer {
+    text-align: center;
+}
