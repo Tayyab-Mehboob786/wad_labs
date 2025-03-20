@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab4</title>
+</head>
+<body>
+    <header>
+        <div>
+           <figure>
+            <img height="100px" width="100px" src="th (1).jpeg" alt="logo">
+            <h2>Student Information system</h2>
+           </figure>
+        </div>
+    </header>
+    <div id="table">
+    <table>
+        <thead>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Reg-ID</td>
+            <td>Address</td>
+            <td>Phone_No</td>
+            <td>Semester</td>
+            <td>Gender</td>
+            <td>CNIC</td>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Bial Mehboob</td>
+            <td>21</td>
+            <td>04072213036</td>
+            <td>Islamabad</td>
+            <td>0316******6</td>
+            <td>8th</td>
+            <td>Male</td>
+            <td>24352347234</td>
+        </tr>
+        <tr>
+            <td>Tayyab Mehboob</td>
+            <td>21</td>
+            <td>04072213035</td>
+            <td>Rawalpindi</td>
+            <td>0305******5</td>
+            <td>6th</td>
+            <td>Male</td>
+            <td>34563434534</td>
+        </tr>
+        <tr>
+            <td>Taha Fayyaz</td>
+            <td>20</td>
+            <td>04072213023</td>
+            <td>Adyala Road</td>
+            <td>0302******9</td>
+            <td>4th</td>
+            <td>Male</td>
+            <td>345645634</td>
+        </tr>
+        <tr>
+            <td>Muhhamd Umer</td>
+            <td>19</td>
+            <td>04072213001</td>
+            <td>Karachi</td>
+            <td>0392******2</td>
+            <td>1st</td>
+            <td>Male</td>
+            <td>345645634</td>
+        </tr>
+        <tr>
+            <td>Abdur Rehman</td>
+            <td>25</td>
+            <td>04072213017</td>
+            <td>Rawalpindi</td>
+            <td>0313******5</td>
+            <td>7th</td>
+            <td>Male</td>
+            <td>3645634543</td>
+        </tr>
+        <tr>
+            <td>Hussain Ali</td>
+            <td>22</td>
+            <td>04072213016</td>
+            <td>Bahawalnagar</td>
+            <td>0305******5</td>
+            <td>9th</td>
+            <td>Male</td>
+            <td>347563436</td>
+        </tr>
+        <tr>
+            <td>Tanveer Atta</td>
+            <td>22</td>
+            <td>04072213042</td>
+            <td>Rahim yar khan</td>
+            <td>0305******2</td>
+            <td>3rd</td>
+            <td>Male</td>
+            <td>365345633</td>
+        </tr>
+        <tr>
+            <td>Sara Alam</td>
+            <td>26</td>
+            <td>04072213089</td>
+            <td>Quetta</td>
+            <td>0367******5</td>
+            <td>4th</td>
+            <td>Female</td>
+            <td>45744677567</td>
+        </tr>
+        <tr>
+            <td>Eman Fatima</td>
+            <td>20</td>
+            <td>04072213023</td>
+            <td>Sawat</td>
+            <td>0305******5</td>
+            <td>9th</td>
+            <td>Female</td>
+            <td>3764345346</td>
+        </tr>
+    </tbody>
+
+    </table>
+</div>
+<div id="form">
+    <div>
+        <h1>Admission Form</h1>
+    </div>
+    <div>
+        <form action="#">
+            <div class="container">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="container">
+                <label for="age">DOB:</label>
+                <input type="date" name="age" id="age">
+            </div>
+            <div class="container">
+                <label for="regid">Reg-ID:</label>
+                <input type="text" name="regid" id="regid">
+            </div>
+            <div class="container">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address">
+            </div>
+            <div class="container">
+                <label for="pno">Phone_No</label>
+                <input type="tel" name="pno" id="pno">
+            </div>
+            <div class="container">
+                <label for="sem">Semester:</label>
+                <select name="sem" id="sem">
+                    <option value="1st">1st</option>
+                    <option value="1st">2nd</option>
+                    <option value="1st">3rd</option>
+                    <option value="1st">4th</option>
+                    <option value="1st">5th</option>
+                    <option value="1st">6th</option>
+                    <option value="1st">7th</option>
+                    <option value="1st">8th</option>
+                    <option value="1st">9th</option>
+                    <option value="1st">10th</option>
+                    <option value="1st">11th</option>
+                    <option value="1st">12th</option>
+                </select>
+            </div>
+            <div class="container">
+                <label for="gender">Gender:</label>
+                <input type="radio" name="gender" id="gender">Male
+                <input type="radio" name="gender" id="gender">Female
+                <input type="radio" name="gender" id="gender">Other
+            </div>
+            <div class="container">
+                <label for="cnic">CNIC:</label>
+                <input type="number" name="cnic" id="cnic">
+            </div>
+            <div class="container">
+                <input id="submit" type="submit">
+            </div>
+        </form>
+    </div>
+</div>
+<div id="report">
+    <h2 style="margin-left: 20px;">Report</h2>
+    <p>
+        The Student Information System webpage consists of a student data table and an admission form, styled using HTML and CSS. 
+        The table presents student details with alternating row colors and hover effects for readability. 
+        The admission form includes various input fields like text, date, radio buttons, dropdowns, and number inputs, 
+        with a submit button that scales on hover. The design follows a consistent color scheme using CSS variables, 
+        a dark blue header and footer with white text, and a light blue background. 
+        Borders, padding, and font styles enhance structure, ensuring a clean, user-friendly, and responsive layout.
+    </p>
+</div>
+<footer>
+    &copy; Tayyab Mehboob | All Rights Resereved
+</footer>
+</body>
+</html>
