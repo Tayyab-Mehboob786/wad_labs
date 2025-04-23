@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 5 - Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-300">
+  <div class="min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <div class="bg-green-800 border-b-4 border-green-300 flex flex-col items-center py-4">
+      <img id="sports" src="th.jpeg" alt="sports_logo" class="w-48 h-48 rounded-full shadow-md transition-transform duration-500 hover:scale-110 hover:shadow-2xl">
+      <h1 class="text-black text-3xl mt-2">Sports</h1>
+    </div>
+
+    <!-- Main Content Wrapper -->
+    <div class="flex-1 grid grid-cols-1 md:grid-cols-[0.5fr_3.5fr] gap-4 p-4">
+
+      <!-- Sidebar -->
+      <div class="bg-green-700 text-white p-4 rounded-3xl flex flex-col items-center space-y-4">
+        <img id="tayyab" src="Snapchat-1048159356.jpg" alt="tayyab" class="w-64 h-64 rounded-full shadow-md transition-transform duration-500 hover:scale-110 hover:shadow-2xl">
+        <div>
+          <h2 class="text-xl text-center">Tayyab Mehboob</h2>
+          <div class="flex justify-around mt-4">
+            <div class="text-center">
+              <h3 class="text-lg font-semibold">Posts</h3>
+              <p class="text-base">61</p>
+            </div>
+            <div class="text-center">
+              <h3 class="text-lg font-semibold">Followers</h3>
+              <p class="text-base">645</p>
+            </div>
+            <div class="text-center">
+              <h3 class="text-lg font-semibold">Following</h3>
+              <p class="text-base">124</p>
+            </div>
+          </div>
+          <div class="mt-6 text-center">
+            <h3 class="text-xl font-semibold">Bio</h3>
+            <p class="mt-2">Web-developer | Photographer | Content Creator</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="bg-green-800 text-white p-6 rounded-3xl flex flex-col gap-6">
+        <article>
+          <h2 class="text-2xl mb-2">Cricket</h2>
+          <p class="mb-4 text-justify">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium vero magni omnis...<br>
+            Cumque dicta optio sit pariatur culpa aperiam...<br>
+            Libero obcaecati corporis vel cumque assumenda ipsum...
+          </p>
+          <h3 class="text-xl mb-2">Some Famous Cricketers</h3>
+          <ul class="list-disc ml-6">
+            <li>Sir Vivian Richards</li>
+            <li>Mahendra Singh Dhoni</li>
+            <li>Babar Azam</li>
+            <li>Virat Kholi</li>
+            <li>Imran Khan</li>
+            <li>AB de Villiers</li>
+            <li>Wasim Akram</li>
+            <li>Shoaib Akhtar</li>
+            <li>Rohit Sharma</li>
+            <li>Pat Cummins</li>
+            <li>Ben Stokes</li>
+          </ul>
+        </article>
+        <img src="a5650bee72dd80f584904572dfd99002.jpg" alt="Babar" class="w-72 h-72 rounded-full shadow-md transition-transform duration-500 hover:scale-110 hover:shadow-2xl self-center">
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="bg-green-800 text-center text-white py-3">
+      &copy; Tayyab Mehboob | All Rights Reserved
+    </div>
+  </div>
+</body>
+</html>
